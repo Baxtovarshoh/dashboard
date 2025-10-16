@@ -2,7 +2,7 @@ function HeaderTextLine() {
   return (
     <div className="w-full flex justify-between items-center">
       <div className="text-2xl leading-4 text-[#23005B]">
-        <p className="font-bold ">€ 100.2m</p>
+        <p className="font-bold text-3xl ">€ 100.2M</p>
         <p className="text-sm">Total Revenue</p>
       </div>
       <div className="flex gap-1">

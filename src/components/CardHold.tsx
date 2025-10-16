@@ -3,8 +3,8 @@ import four from "../assets/Group 54.png";
 
 function CardHold() {
   return (
-    <div className="flex flex-col gap-5 w-2/5">
-      <div className="w-full h-1/2 flex justify-center flex-col items-center bg-white rounded-2xl">
+    <div className="flex flex-col  gap-5 w-2/5">
+      <div className="w-full cursor-pointer h-1/2 flex justify-center flex-col items-center bg-white rounded-2xl">
         <div className="w-full px-7  flex gap-5">
           <img className="" src={three} alt="" />
           <div className="text-[#5321CA]">
@@ -20,7 +20,7 @@ function CardHold() {
           <option value="">Jull 2022</option>
         </select>
       </div>
-      <div className="w-full h-1/2 flex justify-center flex-col items-center bg-white rounded-2xl">
+      <div className="w-full h-1/2 cursor-pointer flex justify-center flex-col items-center bg-white rounded-2xl">
         <div className="w-full px-7  flex gap-5">
           <img className="" src={four} alt="" />
           <div className="text-[#5321CA]">

@@ -18,7 +18,7 @@ function Heading({ rt }: { rt: string }) {
             />
           </label>
         </form>
-        <div className="flex items-center  gap-7">
+        <div className="flex items-center cursor-pointer  gap-7">
           <span className="relative">
             <span className="rounded-[50%] w-3 h-3 top-0.5 left-3 bg-lime-300 absolute"></span>
             <i className="bi bi-bell-fill text-2xl text-white"></i>

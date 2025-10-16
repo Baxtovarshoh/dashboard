@@ -1,6 +1,6 @@
 function LastCard({ val }: { val: string }) {
   return (
-    <div className=" flex flex-col bg-white rounded-2xl p-4 w-[31%] transform rotate-6">
+    <div className=" cursor-pointer flex flex-col bg-white rounded-2xl p-4 w-[31%] transform rotate-6">
       <h1 className="text-[#23005B] font-medium text-xl">Upcoming QBR</h1>
       <div className="items-center flex flex-col text-[#23005B] text-xl font-bold">
         <img className="w-[46%]" src={val} alt="" />
