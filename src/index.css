@@ -1,0 +1,7 @@
+@import "tailwindcss";  
+
+@layer components{
+    .ka {
+        @apply w-full py-2 rounded-xl px-7 cursor-pointer hover:bg-slate-300/30 text-white  font-medium space-x-3 flex items-center
+    }
+}
